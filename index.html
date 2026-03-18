@@ -19,7 +19,7 @@
     h1 { font-size: clamp(2rem, 5vw, 3.2rem); font-weight: 700; line-height: 1.15; margin-bottom: 20px; }
     h1 span { color: #c8f135; }
     p { font-size: 1.1rem; color: #aaa; line-height: 1.7; margin-bottom: 40px; }
-    .cta { display: inline-block; padding: 16px 36px; background: #c8f135; color: #0a0a0a; font-weight: 700; font-size: 1rem; text-decoration: none; border-radius: 4px; letter-spacing: 0.05em; transition: opacity 0.2s; }
+    .cta { display: inline-block; padding: 16px 36px; background: #c8f135; color: #0a0a0a; font-weight: 700; font-size: 1rem; text-decoration: none; border-radius: 4px; letter-spacing: 0.05em; transition: opacity 0.2s; cursor: pointer; }
     .cta:hover { opacity: 0.85; }
     .sub { margin-top: 28px; font-size: 0.9rem; color: #555; }
     .sub a { color: #888; text-decoration: underline; }
@@ -30,7 +30,10 @@
     <p class="brand">EYENI.ART</p>
     <h1>Music. <span>Management.</span><br>Creative Strategy.</h1>
     <p>Artist development, digital marketing, and creative direction for artists and brands ready to grow.</p>
-    <a class="cta" href="https://bookings.eyeni.art/" target="_blank">Book a Consultation</a>
+    <a class="cta" href="https://bookings.eyeni.art/" target="_blank"
+       onclick="gtag('event', 'conversion', {'send_to': 'AW-18009211023/2MVuCJyjy4ocEI-Bu4tD'});">
+      Book a Consultation
+    </a>
     <p class="sub">Or <a href="https://eyeni.art" target="_blank">view the full portfolio &rarr;</a></p>
   </div>
 </body>
